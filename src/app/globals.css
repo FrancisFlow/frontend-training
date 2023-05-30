@@ -194,6 +194,45 @@ p{
 
 }
 /* section  */
+.section-padding {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-title .title {
+  display: inline-block;
+  font-size: var(--fs-lg);
+  font-weight: 400;
+  text-transform:capitalize;
+  color: var(--main-color);
+  margin: 0 0 12px;
+  padding: 0 40px;
+  position:relative;
+
+}
+.section-title .title::before, .section-title .title::after{
+  content: '';
+  position:absolute;
+  height: 1px;
+  width: 35px;
+  background-color: var(--main-color);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.section-title .title::before {
+  left:0;
+}
+.section-title .title::after{
+  right:0;
+}
+
+.section-title .sub-title {
+  font-size: var(--fs-3xl);
+  text-transform: capitalize;
+}
 /* buttons */
 .btn {
   display: inline-block;
@@ -262,65 +301,31 @@ p{
 
 }
 /* about */
-
-.about {
-  padding: 20px;
+.about-img, .about-text {
+  grid-column: span 6;
+}
+.about .section-title{
+  text-align: left;
+  margin: 0 0 15px;
 }
 
-.about-grid{
-  display:grid;
-  grid-template-columns: auto auto;
-  gap: 40px;
-}
-
-.about {
-  display: flex;
-  align-items: start;
-}
-.about-text h3 {
-  color: var(--main-color)
-}
-
-.about-text h1{
-  font-size: var(--fs-3xl);
-  font-weight:700;
- 
-}
-.about-text h3, .about-text h1 {
-  text-transform: capitalize;
-}
-
-.about img{
-  position:relative;
-  max-height:400px;
-  max-width: 400px;
+.about-img .img-box {
   margin:auto;
-  display: block;
-  padding: 20px;
-  margin:auto;
-  background-color: white;
+  padding: 15px;
+  background-color:var(--bg-color);
+  box-shadow: var(--shadow);
   border-radius: 50%;
-  border: 2px solid green;
-  z-index: -1;
-  align-self: center;
-
+ max-width: max-content;
+ max-height: max-content;
 }
-.wonky-dot {
-  height:100px;
-  position: absolute;
-  width:130px;
-  background-color:var(--main-color);
-  border-radius: 0 25px;
-  transform: translate(-20%, 100%);
-  align-self: center;
-
+.about-img .img-box img{
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  
 }
 
-.about .wonky-wrapper {
 
-  left:50%;
-  top: 50%;
-}
 /* services */
 /* pricing */
 /* team */

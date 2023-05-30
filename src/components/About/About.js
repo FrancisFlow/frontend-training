@@ -3,24 +3,24 @@ const About = () => {
         <>
         <section className="about section-padding" id="about" >
            <div className="container">
-            <div className="about-grid">
-                <div className="about-image">
-                    <div className="wonky-wrapper">
-                        <div className="wonky-dot text-center">
-                            <h1 className="text-4xl font-semibold text-white" >2.5k</h1>
-                            <p className="font-light text-white uppercase" >satisfied clients</p>
-                        </div>
+            <div className="grid">
+                <div className="about-img">
+                    <div className="img-box">
+                        <img src="../images/about.png" alt="about image" />
                     </div>
-                    <img src="/images/francisngigi1.jpg" alt="about image" />
                 </div>
                 <div className="about-text">
-                    <h3>__ about us __</h3>
-                    <h1>we're cleaning since 2010</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti labore nihil provident </p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, expedita id tempore ipsam perferendis natus praesentium odio architecto dolores fugit.</p>
+                    <div className="section-title">
+                        <span className="title">about us</span>
+                        <h2 className="sub-title">we're cleaning since 2010</h2>
+
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, reprehenderit. Tempora fugiat quasi similique dolore dolor quia ipsum ratione consectetur</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis at ad fuga doloribus libero officiis qui debitis tempora sit excepturi!</p>
                 </div>
             </div>
            </div>
+          
         </section>
         </>
       );
