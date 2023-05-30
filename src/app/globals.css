@@ -237,6 +237,30 @@ p{
   margin: 0 0 20px;
   text-transform: capitalize;
 }
+.hero-image {
+  position:relative;
+}
+
+.hero-image .circle-wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+}
+
+.hero-image .circle{
+  height: 350px;
+  width: 350px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-image img {
+  display: block;
+  margin:auto;
+  align-self: center;
+
+}
 /* about */
 /* services */
 /* pricing */
