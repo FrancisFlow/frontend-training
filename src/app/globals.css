@@ -232,6 +232,7 @@ p{
 .section-title .sub-title {
   font-size: var(--fs-3xl);
   text-transform: capitalize;
+  font-weight: 700;
 }
 /* buttons */
 .btn {
