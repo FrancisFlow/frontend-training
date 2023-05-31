@@ -6,7 +6,11 @@ const About = () => {
             <div className="grid">
                 <div className="about-img">
                     <div className="img-box">
-                        <img src="../images/about.png" alt="about image" />
+                        <img src="../images/about.jpeg" alt="about image" />
+                        <div className="box box-1">
+                            <span className="text-white" >2.5k</span>
+                            <p>satisfied clients</p>
+                        </div>
                     </div>
                 </div>
                 <div className="about-text">
