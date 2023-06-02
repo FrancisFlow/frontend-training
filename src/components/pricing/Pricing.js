@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 const Pricing = () => {
     return (  
         <>
@@ -15,45 +18,45 @@ const Pricing = () => {
                             <h2>$299</h2>
                         </div>
                         <div className="features">
-                        <ul className="" >
-                           <li>✓ Window Cleaning</li>
-                            <li>✓ Carpet Cleaning </li>
-                            <li>✗ Furniture Cleaning</li>
-                            <li>✗ Car Cleaning</li>
-                            <li>✗ Bathroom Cleaning</li>
+                        <ul className="flex flex-col items-start" >
+                           <li> <FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" /> Window Cleaning</li>
+                            <li><FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" /> Carpet Cleaning</li>
+                            <li><FontAwesomeIcon icon={faXmark} className="h-4 w-4 inline-block" /> Furniture Cleaning</li>
+                            <li><FontAwesomeIcon icon={faXmark} className="h-4 w-4 inline-block" /> Car Cleaning</li>
+                            <li><FontAwesomeIcon icon={faXmark} className="h-4 w-4 inline-block" /> Bathroom Cleaning</li>
                         </ul>
 
                         </div>
                       
-                        <button type="button">Get Started</button>
+                        <button className="btn "  type="button">Get Started</button>
                     </div>
                     <div className="pricing-item">
                         <h2 className="plan-title" >Standard</h2>
                         <div className="round-price">
                             <h2>$499</h2>
                         </div>
-                        <ul>
-                           <li>✓Window Cleaning</li>
-                           <li>✓Carpet Cleaning </li>
-                            <li>✓Furniture Cleaning</li>
-                            <li>✗Car Cleaning</li>
-                            <li>✗Bathroom Cleaning</li>
+                        <ul className="flex flex-col items-start" >
+                           <li> <FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" /> Window Cleaning</li>
+                           <li> <FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block"/> Carpet Cleaning </li>
+                            <li><FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" /> Furniture Cleaning</li>
+                            <li><FontAwesomeIcon icon={faXmark} className="h-4 w-4 inline-block" /> Car Cleaning</li>
+                            <li><FontAwesomeIcon icon={faXmark} className="h-4 w-4 inline-block" /> Bathroom Cleaning</li>
                         </ul>
-                        <button type="button">Get Started</button>
+                        <button  className="btn"type="button">Get Started</button>
                     </div>
                     <div className="pricing-item">
                         <h2 className="plan-title" >Premium</h2>
                         <div className="round-price">
                             <h2>$899</h2>
                         </div>
-                        <ul>
-                          <li> ✓ Window Cleaning</li>
-                            <li>✓Carpet Cleaning </li>
-                            <li>✓Furniture Cleaning</li>
-                            <li>✓Car Cleaning</li>
-                           <li>✓Bathroom Cleaning</li>
+                        <ul className="flex flex-col items-start" >
+                          <li> <FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" />  Window Cleaning</li>
+                            <li><FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" /> Carpet Cleaning </li>
+                            <li><FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" /> Furniture Cleaning</li>
+                            <li><FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" /> Car Cleaning</li>
+                           <li><FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" /> Bathroom Cleaning</li>
                         </ul>
-                        <button type="button">Get Started</button>
+                        <button className="btn" type="button">Get Started</button>
 
                     </div>
 
