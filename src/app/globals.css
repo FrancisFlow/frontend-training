@@ -13,7 +13,8 @@
   --main-color: hsl(var(--hue), var(--saturation), var(--lightness));
 
   /* text colors */
-  --text-white: hsl(0, 0, 100%);
+
+  --text-white: hsl(0, 0%, 100%);
   --text-light-gray: hsl(0, 0%, 96%);
   --text-x-dark-gray: hsl(0, 0%, 10%);
   --text-dark-gray: hsl(0, 0%, 20%);
@@ -447,7 +448,7 @@ p{
   background-color: var(--bg-color);
   margin: auto;
   border-radius: 50%;
-  padding: 25px;
+  padding: 15px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -455,8 +456,8 @@ p{
 }
 .team-item img {
   border-radius: 50%;
-  max-width: 350px;
-  /* max-height: 350px;  */
+  width: 330px;
+  height: 330px; 
   transition: filter 0.5s ease;
 
 
@@ -470,6 +471,26 @@ p{
   border-radius: 0 40px;
   max-width: 256px;
   width: 80%;
+  text-align: center;
+  text-transform: capitalize;
+  position: relative;
+  margin: -42px auto 0;
+  transition: border-radius 0.5s ease;
+
+}
+
+.team-item:hover .detail {
+  border-radius: 40px 0;
+}
+.team-item  h3{
+  margin: 0 0 5px;
+  color:var(--text-white);
+  font-size: var(--fs-xl);
+  font-weight: 500;
+}
+.team-item p {
+  margin: 0;
+  color: var(--text-light-gray);
 
 }
 
