@@ -12,16 +12,24 @@ const Contact = () => {
             </div>
             <div className="grid contact-grid">
                 <div className="contact-info">
-                    <div className="contact-into-item">
-                    <FontAwesomeIcon icon={faMapMarkerAlt}/>  <h3> Address </h3>
+                    <div className="contact-info-item">
+                        <span className="happyi">
+                        <FontAwesomeIcon className="" icon={faMapMarkerAlt}/> 
+                        </span>
+                         <h3> Address </h3>
                         <p> Block-A Sec-75, Sarita Vihar, New Delhi </p>
                     </div>
-                    <div className="contact-into-item">
-                    <FontAwesomeIcon icon={faPhoneFlip}/> <h3>  Call us </h3>
+                    <div className="contact-info-item">
+                    <span className="happyi" > <FontAwesomeIcon className="" icon={faPhoneFlip}/></span>
+                     <h3>  Call us </h3>
                         <p> 919854293***</p>
                     </div>
-                    <div className="contact-into-item">
-                    <FontAwesomeIcon icon={faEnvelope}/> <h3>  Email us </h3>
+                    <div className="contact-info-item ">
+                        <span className="happyi" >                    
+                            <FontAwesomeIcon  className="" icon={faEnvelope}/>
+                            </span>
+
+                             <h3>  Email us </h3>
                         <p>info@gmail.com</p>
                     </div>
                 </div>
