@@ -3,6 +3,7 @@ import HeroSection from '@/components/herosection/Hero'
 import Navbar from '@/components/navbar/Navbar'
 import Pricing from '@/components/pricing/Pricing'
 import Services from '@/components/services/Services'
+import Team from '@/components/team/Team'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Services />
       <Pricing />
+      <Team />
     </main>
     </>
   )
