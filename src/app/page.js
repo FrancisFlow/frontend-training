@@ -1,5 +1,6 @@
 import About from '@/components/About/About'
 import Contact from '@/components/contact/Contact'
+import Footer from '@/components/footer/Footer'
 import HeroSection from '@/components/herosection/Hero'
 import Navbar from '@/components/navbar/Navbar'
 import Pricing from '@/components/pricing/Pricing'
@@ -17,6 +18,7 @@ export default function Home() {
       <Pricing />
       <Team />
       <Contact />
+      < Footer />
     </main>
     </>
   )
