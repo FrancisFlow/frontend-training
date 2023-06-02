@@ -50,7 +50,7 @@ const Pricing = () => {
                             <h2>$899</h2>
                         </div>
                         <ul className="flex flex-col items-start" >
-                          <li> <FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" />  Window Cleaning</li>
+                          <li> <FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block pr-[2pxd]" />  Window Cleaning</li>
                             <li><FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" /> Carpet Cleaning </li>
                             <li><FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" /> Furniture Cleaning</li>
                             <li><FontAwesomeIcon icon={faCheck} className="h-4 w-4 inline-block" /> Car Cleaning</li>
