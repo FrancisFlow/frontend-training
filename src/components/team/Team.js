@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Team = () => {
     return ( 
         <>
@@ -12,7 +13,9 @@ const Team = () => {
 
                     <div className="team-item">
                         <div className="img-box">
-                        <img src="/images/about.jpeg" alt="Team lead photo" />
+                        <Image
+                        className="rounded-full p-2"
+                         width={330} height={330} src="/images/about.jpeg" alt="Team lead photo" />
 
                         </div>
                         <div className="detail">
@@ -21,8 +24,9 @@ const Team = () => {
                         </div>
                     </div>
                     <div className="team-item">
-                        <div className="img-box">
-                     <img src="/images/happyjane.jpg" alt="Car cleaner photo" />
+                        <div className="img-box ">
+                     <Image className="rounded-full "
+                     height={330} width={330} src="/images/happyjane.jpg" alt="Car cleaner photo" />
 
                         </div>
                         <div className="detail">
@@ -32,8 +36,7 @@ const Team = () => {
                     </div>
                     <div className="team-item">
                         <div className="img-box" >
-                        <img src="/images/derick.jpg" alt="general cleaner photo" />
-
+                        <Image  className="" height={330} width={330} src="/images/derick.jpg" alt="general cleaner photo" />
                         </div>
                         <div className="detail">
                             <h3>John Doe</h3>

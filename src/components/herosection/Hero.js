@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 const HeroSection = () => {
 
     
@@ -22,7 +22,11 @@ const HeroSection = () => {
                         <div className="circle-wrap">
                             <div className="circle"></div>
                         </div>
-                        <img src="/images/maid.png" alt="Cleaner image"/>
+                     <Image src="/images/maid.png"
+                        alt="Cleaner image"
+                        width={600}
+                        height={600}
+                        />
                     </div>
                 </div>
             </div>

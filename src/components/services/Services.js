@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Services = () => {
     return (
         <>
@@ -12,21 +13,21 @@ const Services = () => {
                 <div className="grid">
                     <div className="services-item">
                          <div className="img-box">
-                            <img src="/images/carpet.jpg" alt="carpet cleaning image"/>
+                            <Image height={250} width={250} src="/images/carpet.jpg" alt="carpet cleaning image"/>
                         </div>
                         <h3>carpet cleaning</h3>
 
                     </div>
                     <div className="services-item">
                         <div className="img-box">
-                            <img src="/images/window.jpg" alt="window cleaning image"/>
+                            <Image height={250} width={2500} src="/images/window.jpg" alt="window cleaning image"/>
                         </div>
                         <h3>window cleaning</h3>
 
                     </div>
                     <div className="services-item">
                         <div className="img-box">
-                            <img src="/images/bathroom.jpg" alt="bathroom cleaning image" />
+                            <Image height={250} width={250} src="/images/bathroom.jpg" alt="bathroom cleaning image" />
                         </div>
                         <h3>bathroom cleaning</h3>
 
@@ -34,7 +35,7 @@ const Services = () => {
 
                     <div className="services-item">
                         <div className="img-box">
-                            <img src="/images/furniture.jpg" alt="furniture cleaning image" />
+                            <Image height={250} width={250} src="/images/furniture.jpg" alt="furniture cleaning image" />
                         </div>
                         <h3>furniture cleaning</h3>
 
