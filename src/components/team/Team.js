@@ -36,7 +36,7 @@ const Team = () => {
                     </div>
                     <div className="team-item">
                         <div className="img-box" >
-                        <Image  className="" height={330} width={330} src="/images/derick.jpg" alt="general cleaner photo" />
+                        <Image  className="rounded-full pt-0" height={330} width={330} src="/images/derick.jpg" alt="general cleaner photo" />
                         </div>
                         <div className="detail">
                             <h3>John Doe</h3>

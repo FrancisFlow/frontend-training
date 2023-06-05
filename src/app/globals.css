@@ -299,7 +299,7 @@ button {
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
-.hero-image Image {
+.hero-image img {
   display: block;
   margin:auto;
   align-self: center;
@@ -315,14 +315,6 @@ button {
   margin: 0 0 15px;
 }
 
-.about-img Image {
-  background-color: green;
-  padding: 10px;
-  height: 400px;
-  width: 400px;
-
-}
-
 .about-img .img-box {
   margin:auto;
   padding: 15px;
@@ -330,13 +322,14 @@ button {
   box-shadow: var(--shadow);
   border-radius: 50%;
   max-width: 400px;
-  max-height: 400px;
   position: relative;
-  border-radius: 50%;
-  overflow: visible;
-
 }
-
+.about-img .img-box img{
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  
+}
 
 
 .about-img .box {
@@ -355,8 +348,7 @@ button {
 .about-img .box-1 {
  top:50%;
  left: 0;
- transform: translateY(-50%) translateX(-50%);
- 
+ transform: translateY(-90%) translateX(-50%);
 }
 
 .about-img .box span{
@@ -454,8 +446,8 @@ button {
 }
 
 .team-item .img-box {
-  height: 350px;
-  width: 350px;
+  max-height: 350px;
+  max-width: 350px;
   box-shadow: var(--shadow);
   background-color: var(--bg-color);
   margin: auto;
@@ -466,13 +458,15 @@ button {
   align-items: center;
   justify-content: center;
 }
-.team-item Image {
-  border-radius: 50%; 
+.team-item img {
+  border-radius: 50%;
+  width: 330px;
+  height: 330px; 
   transition: filter 0.5s ease;
 
 
 }
-.team-item:hover img{
+.team-item:hover img {
   filter: grayscale(60%);
 }
 .team-item .detail {

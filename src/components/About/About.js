@@ -6,13 +6,8 @@ const About = () => {
            <div className="container">
             <div className="grid">
                 <div className="about-img">
-                    <div className="img-box ">
-                        <Image src="/images/joyce.jpg"
-                        className="rounded-full"
-                         
-                        width={400} 
-                        height={400}
-                        alt="about image" />
+                    <div className="img-box">
+                        <Image height={400} width={400}  src="/images/joyce.jpg" alt="about image" />
                         <div className="box box-1">
                             <span className="text-white" >2.5k</span>
                             <p>satisfied clients</p>
