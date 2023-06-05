@@ -17,7 +17,7 @@ const About = () => {
                 <div className="about-text">
                     <div className="section-title">
                         <span className="title">about us</span>
-                        <h2 className="sub-title ">we're cleaning since 2010</h2>
+                        <h2 className="sub-title ">we&apos;re cleaning since 2010</h2>
 
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, reprehenderit. Tempora fugiat quasi similique dolore dolor quia ipsum ratione consectetur</p>
