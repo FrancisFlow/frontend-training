@@ -173,9 +173,6 @@ p{
   color: var(--text-x-dark-gray);
   letter-spacing: 1px;
 }
-
-
-
 .nav a:hover {
   color: var(--main-color);
 }
@@ -254,19 +251,12 @@ button {
   vertical-align:middle;
   user-select: none;
   transition: all 0.3s ease;
-
-
-
 }
 .btn:hover {
   background-color: transparent;
   color: var(--main-color);
   border-color: var(--main-color);
 }
-/* forms */
-/* preloader */
-/* header */
-/* home */
 .home {
   padding: 100px 0 60px;
 }
@@ -330,8 +320,6 @@ button {
   width: 400px;
   
 }
-
-
 .about-img .box {
   position: absolute;
   text-align: center;
